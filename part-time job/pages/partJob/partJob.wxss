@@ -1,0 +1,121 @@
+/* pages/partJob/partJob.wxss */
+
+.main{
+  background-color: whitesmoke;
+}
+
+.up_part{
+background-color: white;
+margin-right: 5rpx;
+margin-left: 5rpx;
+}
+
+.top{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+  background-color: white;
+}
+
+#top_images{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left:10rpx;
+}
+
+.txt1 {
+  width: 120rpx;
+  height: auto;
+  font-size: 30rpx;
+  text-align: center;
+  color: black;
+}
+
+#top_images2{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left:10rpx;
+}
+
+.search_bar {
+  display: flex;
+  height: 50rpx;
+  width: auto;
+  flex-direction: row;
+  background-color: whitesmoke;
+  align-items: center;
+  text-align: center;
+  size: 30rpx;
+  margin-left:10px;
+  border-radius: 10rpx;
+}
+
+.imagesize {
+  display: flex;
+  justify-content: center;
+}
+
+.imagesize image {
+  width: 90%;
+  height: 350rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+  margin-top: 40rpx;
+}
+
+#mid_images{
+  width: 140rpx;
+  height: 140rpx;
+  margin-left:35rpx;
+  margin-right: 35rpx;
+  margin-top: 30rpx;
+}
+
+.grid_out{
+  display: flex;
+  flex-direction: row;
+  margin-left: 60rpx;
+  margin-top: 30rpx;
+  /* background-color: white; */
+}
+.grid_in{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.txt_in{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.txt_in_in{
+  font-size: 22rpx;
+  margin-top: 10rpx;
+}
+
+#company_img{
+  width: 110rpx;
+  height: 110rpx;
+  margin-right: 20rpx;
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+  margin-left: 15rpx;
+}
+
+.company_in{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rpx;
+  border-radius: 20rpx;
+  background-color: white;
+}
+
+.company_out{
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}

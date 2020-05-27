@@ -1,0 +1,39 @@
+<!--pages/mes/mes.wxml-->
+<view class="main">
+	<!-- <text>pages/mes/mes.wxml</text> -->
+
+	<!-- 消息 通讯录 聊调指南 -->
+	<view class="grid_out">
+		<view class="grid_in">
+			<image id="mid_images" src="/images/mes/right.png"></image>
+			<text>###</text>
+		</view>
+		<view class="grid_in">
+			<image id="mid_images" src="/images/mes/commun.png"></image>
+			<text>###</text>
+		</view>
+		<view class="grid_in">
+			<image id="mid_images" src="/images/mes/wa.png"></image>
+			<text>###</text>
+		</view>
+	</view>
+
+	<!-- 消息队列 -->
+	<view class="mes_out">
+		<block wx:for="{{person}}" wx:for-item="item" wx:for-index='idx'>
+			<view class="mes_in">
+				<image id="person_img" src="{{item.img}}"></image>
+				<view wx:if="{{item.status}}">
+					<text>{{item.name}}</text>
+          <text>  [{{item.status}}]</text>
+					<text>\n{{item.content}}</text>
+				</view>
+        <view wx:else>
+					<text>{{item.name}}</text>
+					<text>\n{{item.content}}</text>
+				</view>
+			</view>
+		</block>
+	</view>
+
+</view>

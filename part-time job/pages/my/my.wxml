@@ -1,0 +1,30 @@
+<!--pages/my/my.wxml-->
+<!-- <text>pages/my/my.wxml</text> -->
+
+<view class="main">
+
+	<!-- 个人信息 -->
+	<view class="person_line">
+		<image id="head_img" src="/images/my/sunshine.jpg"></image>
+		<view class="info">
+			<text>昵称：朽木</text>
+			<text>\n手机号：110</text>
+		</view>
+	</view>
+
+  <!-- 其他功能 -->
+  <view class="func_out">
+   <block wx:for="{{func}}">
+    <view class="func_in" catchtap="{{item.tap}}">
+      <image src="{{item.icon}}"></image>
+      <text>{{item.title}}</text>
+      <view class="detail-item-btn"></view>
+    </view>
+   </block>
+  </view>
+
+  <!-- 版权标记 -->
+  <view class="weui-footer">
+		<view class="weui-footer__text">Copyright © 2020 乐智之旅</view>
+	</view>
+</view>

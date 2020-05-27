@@ -1,0 +1,15 @@
+<!--pages/index0/index0.wxml-->
+<!-- <text>pages/index0/index0.wxml</text> -->
+
+<view class="container">
+	<view class="txt1"></view>
+	<view class="view1">
+	<icon class="icon-box-img" type="info" size="93"></icon>
+	<view class="agree">接受授权</view>
+	</view>
+	<view class="txt1">
+		<text>为了更好地为您服务，此应用需要您的授权</text>
+	</view>
+	<button style="width:80vw" wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" type="primary">授权登录</button>
+	<view wx:else>请升级微信版本</view>
+</view>

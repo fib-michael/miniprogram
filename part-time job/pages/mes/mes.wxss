@@ -1,0 +1,49 @@
+/* pages/mes/mes.wxss */
+.main{
+  background-color: whitesmoke;
+}
+
+.grid_out{
+  display: flex;
+  flex-direction: row;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-top: 30rpx;
+  background-color: white;
+  border-radius: 20rpx;
+}
+
+.grid_in{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#mid_images{
+  width: 140rpx;
+  height: 140rpx;
+  margin-left:45rpx;
+  margin-right: 45rpx;
+  margin-top: 40rpx;
+}
+
+.mes_out{
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.mes_in{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10rpx;
+  border-radius: 20rpx;
+  background-color: white;
+}
+#person_img{
+  width: 120rpx;
+  height: 120rpx;
+  margin-right: 20rpx;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}

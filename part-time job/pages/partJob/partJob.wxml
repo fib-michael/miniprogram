@@ -1,0 +1,96 @@
+<!--pages/partJob/partJob.wxml-->
+<!-- <text>pages/partJob/partJob.wxml</text> -->
+
+<view class="main">
+
+	
+	<!-- 顶部top -->
+	<view class="top">
+		<view>
+			<image id="top_images" src="/images/landmark.png" mode="acpectFit"></image>
+		</view>
+		<text class="txt1">淮南</text>
+		<view class="search_bar">
+			<input style="input" name="word" type="text" placeholder=""></input>
+			<image id="top_images2" src="/images/search1.png"></image>
+		</view>
+	</view>
+
+
+	<view class="up_part">
+		<!-- 兼职咨询 -->
+		<view class="imagesize">
+			<image src="/images/1.jpg"></image>
+		</view>
+
+		<!-- 家教 求助 更多 -->
+		<view class="grid_out">
+			<view class="grid_in">
+				<image id="mid_images" src="/images/grid/part.png"></image>
+				<text>校园兼职</text>
+			</view>
+			<view class="grid_in">
+				<image id="mid_images" src="/images/grid/hand.png"></image>
+				<text>XXX</text>
+			</view>
+			<view class="grid_in">
+				<image id="mid_images" src="/images/grid/5-more.png"></image>
+				<text>更多</text>
+			</view>
+		</view>
+	</view>
+
+	<!-- 兼职信息 -->
+	<view class="company_out">
+		<view class="company_in">
+			<image id="company_img" src="/images/company/company1.png"></image>
+			<view class="txt_in">
+				<text>卓诗尼服装店招3名店员。\n</text>
+				<text class="txt_in_in">信用等级：A</text>
+			</view>
+		</view>
+
+		<view class="company_in">
+			<image id="company_img" src="/images/company/company2.png"></image>
+			<view class="txt_in">
+				<text>网红奶茶店招1名店员。\n</text>
+				<text>信用等级：B+</text>
+			</view>
+		</view>
+
+		<view class="company_in">
+			<image id="company_img" src="/images/company/company2.png"></image>
+			<view  class="txt_in">
+				<text>御膳堂饭店招兼职服务员3人\n</text>
+				<text>信用等级：A</text>
+			</view>
+		</view>
+
+		<view class="company_in">
+			<image id="company_img" src="/images/company/company3.png"></image>
+			<view class="txt_in">
+				<text>水立方教育中心招聘5名讲师。\n</text>
+				<text>信用等级：A+</text>
+			</view>
+		</view>
+
+		<view class="company_in">
+			<image id="company_img" src="/images/company/company1.png"></image>
+			<view  class="txt_in">
+				<text>菜鸟快递服务中心招兼职一人。\n</text>
+				<text>信用等级：A</text>
+			</view>
+		</view>
+
+
+		<view class="company_in">
+			<image id="company_img" src="/images/company/company3.png"></image>
+			<view  class="txt_in">
+				<text>XXX服装店招x名模特。\n</text>
+				<text>信用等级：A</text>
+			</view>
+		</view>
+
+	</view>
+
+</view>

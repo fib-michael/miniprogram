@@ -1,0 +1,15 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="container">
+	<image class="avatar" src="{{avatarUrl}}" style="border-radius: 50%"></image>
+	<text class="motto">Hello,{{name}}</text>
+
+	<view catchtap="onTapJump" class="mid_part">
+		<text class="txt">请选择身份开启乐智之旅</text>
+    <view class="button1"><button >我要找工作</button></view>
+    <view class="button2"><button >我要招人</button></view>
+	</view>
+
+	<view class="weui-footer">
+		<view class="weui-footer__text">Copyright © 2020 乐智之旅</view>
+	</view>
+</view>

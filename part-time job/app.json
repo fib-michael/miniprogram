@@ -1,0 +1,45 @@
+{
+  "pages": [
+    
+    "pages/partJob/partJob",
+    "pages/index0/index0",
+    
+    "pages/my/my",
+    "pages/mes/mes",
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/welcome/welcome"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "乐智之旅",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/partJob/partJob",
+        "text": "兼职大厅",
+        "iconPath": "/images/bottom/explore1.png",
+        "selectedIconPath": "/images/bottom/explore2.png"
+      },
+      {
+        "pagePath": "pages/mes/mes",
+        "text": "消息",
+        "iconPath": "/images/bottom/message1.png",
+        "selectedIconPath": "/images/bottom/message2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/images/bottom/my1.png",
+        "selectedIconPath": "/images/bottom/my2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
